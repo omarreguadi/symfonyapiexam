@@ -1,4 +1,4 @@
-#symfonyapiexam
+# SymfonyApiExam
 # Pour lancer le projet 
 ```bash
 	make install
