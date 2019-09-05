@@ -31,16 +31,7 @@ docker-compose exec web bash -c "php bin/console d:s:u --force"
 	docker-compose exec web bash -c "php bin/console app:create-admin "adresse de l'admin""
 ```
 
-docker: .env
-	docker-compose up -d
-
-.env:
-	cp .env.dist .env;
-
-book: docker-compose.yml
-	#
-	# API Budget_Cards_Sub
-	#
+book: 
 	# API: http://127.0.0.1:81
 	# phpMyAdmin: http://127.0.0.1:8081
 	#
