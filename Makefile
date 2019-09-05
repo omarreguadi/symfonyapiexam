@@ -1,4 +1,4 @@
-install: init book
+    install: init book
 
 init: docker
 	docker-compose exec web bash -c "composer install"
@@ -17,5 +17,5 @@ book: docker-compose.yml
 	# API Budget_Cards_Sub
 	#
 	# API: http://127.0.0.1:81
-	# phpMyAdmin: http://127.0.0.1:8080
+	# phpMyAdmin: http://127.0.0.1:8081
 	#
