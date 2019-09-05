@@ -32,7 +32,7 @@ services:
     depends_on:
       - database
     ports:
-      - "8080:80"
+      - "8081:80"
     environment:
       MYSQL_ROOT_PASSWORD: root
       PMA_HOST: database

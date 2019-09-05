@@ -35,4 +35,4 @@ security:
 
 # api/secure/ pour toutes les pages ou faut etre authentifié
 # api/admin/ pour toutes les pages que l'admin peut acceder uniquement
-# api/open/ pour les pages ou c'est libre (pas oblige de le preciser)
+# api/open/ pour les pages ou c'est libre
